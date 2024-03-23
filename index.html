@@ -1,0 +1,72 @@
+<style>
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    nav li {
+        position: relative;
+        display: inline-block;
+        margin-right: 20px;
+    }
+    nav li ul {
+        display: none;
+        position: absolute;
+        left: 0;
+        background-color: #f8f8f8;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    nav li:hover ul {
+        display: block;
+    }
+    nav li ul li {
+        display: block;
+    }
+    nav a {
+        text-decoration: none;
+        color: inherit;
+    }
+</style>
+<!DOCTYPE html>
+<html data-theme="light">
+<head>
+    <title>Sunset Sweats: The Cali Way to Work Out at Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <style>
+        /* Add your custom styles here, including the styles for the submenu */
+    </style>
+</head>
+<body>
+    <!-- Updated Navigation Menu Here -->
+    <nav class="container-fluid">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Reviews</a>
+                <ul>
+                    <li><a href="#">Equipment</a></li>
+                    <li><a href="#">Apps & Software</a></li>
+                    <li><a href="#">Accessories</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Guides</a>
+                <ul>
+                    <li><a href="#">Workout Plans</a></li>
+                    <li><a href="#">Nutrition Tips</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Humor</a></li>
+            <li><a href="#">About Us</a></li>
+            <li onclick="toggleTheme()" style="cursor: pointer;">
+                <!-- Theme Toggle SVG Here -->
+            </li>
+        </ul>
+    </nav>
+    
+    <!-- The rest of your HTML content remains unchanged -->
+    
+    <script>
+        // Your existing JavaScript for theme toggling and form submission
+    </script>
+</body>
+</html>
